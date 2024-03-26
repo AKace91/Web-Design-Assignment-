@@ -1,0 +1,300 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  :root {
+    --primary-color: #4B8B3B;
+    --secondary-color: #FFD36E;
+    --accent-color: #DCDBDB;
+    --text-color: #333333;
+    --font-stack: 'Comic Neue', Arial, sans-serif;
+  }
+  
+  body {
+    font-family: var(--font-stack);
+    color: var(--text-color);
+  }
+  
+  header, footer, section {
+    padding: 20px;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: var(--primary-color);
+  }
+
+  .logo {
+    height: 100px;
+    width: 100px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  nav ul li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+
+  #home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .heading-box {
+    background-color: var(--accent-color);
+    padding: 20px;
+    margin: 30px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 20px;
+  } 
+
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  h2{
+    text-align: center;
+    color: var(--primary-color);
+  }
+
+  .price {
+    font-weight: bold;
+    color:var(--primary-color)
+  }
+
+  .rubiks-cube {
+    background-color: var(--accent-color);
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 20px);
+    margin-bottom: 10px;
+  }
+
+  .rubiks-cube img {
+    max-width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+  .chess-set {
+    background-color: var(--accent-color);
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 20px);
+    margin-bottom: 10px;
+  }
+
+  .chess-set img {
+    max-width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+  .circuit-kit {
+    background-color: var(--accent-color);
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 20px);
+    margin-bottom: 10px;
+  }
+
+  .circuit-kit img {
+    max-width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+  .lego-mindstorms {
+    background-color: var(--accent-color);
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 20px);
+    margin-bottom: 10px;
+  }
+
+  .lego-mindstorms img {
+    max-width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+  .codemaster {
+    background-color: var(--accent-color);
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 20px);
+    margin-bottom: 10px;
+  }
+
+  .codemaster img {
+    max-width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+  .memory-games {
+    background-color: var(--accent-color);
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 20px);
+    margin-bottom: 10px;
+  }
+
+  .memory-games img {
+    width: 100px;
+    height: 100px;
+    
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .testimonial {
+    background-color: var(--accent-color);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial p {
+    margin-bottom: 10px;
+  }
+  
+  .author {
+    font-style: italic;
+    text-align: right;
+    color: var(--text-color);
+  }
+  
+  .add-review {
+    margin-top: 40px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .bulk-orders {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .bulk-orders h2 {
+    color: #333;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  form label, form input, form textarea, form button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  form button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  #delivery-info, #gift-options {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#delivery-info img, #gift-options img {
+    height: 250px;
+    width: auto;
+    object-position: center;
+    
+}
+
+
+  footer {
+    background-color: var(--secondary-color);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+  /* Section styles */
+  section {
+    margin-bottom: 20px;
+  }
+  
+  /* Class for section links */
+  .section-link {
+    display: block;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+  }
+  
+  /* Hover effect for links */
+  .section-link:hover {
+    background-color: var(--secondary-color);
+  }
+  
